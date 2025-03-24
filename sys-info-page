@@ -1,0 +1,21 @@
+#!/bin/bash
+
+# program to output a system information page
+
+SYSHTML='sys-info-page.html'
+
+rm -f "$SYSHTML"
+# trap "rm -f $SYSHTML" EXIT
+
+cat <<EOF > $SYSHTML
+<HTML>
+	<HEAD>
+		<TITLE> Some Title </TITLE>
+	</HEAD>
+	<BODY>
+		Page Body
+	</BODY>
+</HTML>
+EOF
+
+exit 0
