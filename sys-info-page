@@ -2,12 +2,12 @@
 
 # program to output a system information page
 
-SYSHTML='sys-info-page.html'
+REPORTHTML='sys-info-page.html'
 
-rm -f "$SYSHTML"
-# trap "rm -f $SYSHTML" EXIT
+rm -f "$REPORTHTML"
+# trap "rm -f $REPORTHTML" EXIT
 
-cat <<EOF > $SYSHTML
+cat <<EOF > $REPORTHTML
 <HTML>
 	<HEAD>
 		<TITLE> Some Title </TITLE>
