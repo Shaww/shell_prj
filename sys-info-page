@@ -2,17 +2,23 @@
 
 # program to output a system information page
 
-REPORTHTML='sys-info-page.html'
+REPORT_HTML='sys-info-page.html'
 
-rm -f "$REPORTHTML"
-# trap "rm -f $REPORTHTML" EXIT
+rm -f "$REPORT_HTML"
+# trap "rm -f $REPORT_HTML" EXIT
 
-cat <<EOF > $REPORTHTML
+TITLE="System Information Report for $HOSTNAME"
+CURRENT_TIME=$(date)
+TIME_STAMP="Generated $CURRENT_TIME, by $USER"
+
+cat <<EOF > $REPORT_HTML
 <HTML>
 	<HEAD>
-		<TITLE> Some Title </TITLE>
+		<TITLE>$TITLE</TITLE>
 	</HEAD>
 	<BODY>
+		<H1>$TITLE</H1>
+		<P>$TIME_STAMP</P>
 		Page Body
 	</BODY>
 </HTML>
