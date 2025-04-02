@@ -20,6 +20,12 @@ report2() {
     return 0
 }
 
+report3() {
+    echo "generating report3"
+    return 0
+}
+
+
 TITLE="System Information Report for $HOSTNAME"
 CURRENT_TIME=$(date)
 TIME_STAMP="Generated $CURRENT_TIME, by $USER"
