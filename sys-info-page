@@ -2,6 +2,7 @@
 
 # program to output a system information page
 # comments added by a second contributor
+# another contribution from an outside contributor
 
 REPORT_HTML='sys-info-page.html'
 
