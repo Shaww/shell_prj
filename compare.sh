@@ -1,5 +1,8 @@
 #!/bin/sh
 
+# shell script to compare 2 branches for their hash id
+# to see if there are the same.
+
 C1="commit-1"
 C2="commit-2"
 
