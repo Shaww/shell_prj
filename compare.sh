@@ -1,5 +1,8 @@
 #!/bin/sh
 
+# place holder notes
+# place holder details
+
 C1="commit-1"
 C2="commit-2"
 
