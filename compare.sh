@@ -1,5 +1,7 @@
 #!/bin/sh
 
+# shell script to compare 2 branches for their hash id
+# to see if there are the same.
 # place holder notes
 # place holder details
 
