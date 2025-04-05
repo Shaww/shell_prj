@@ -15,4 +15,6 @@ git rev-parse "$2" > $C2
 
 comm $C1 $C2
 
+echo 'done'
+
 exit 0
